@@ -35,7 +35,6 @@ function drawBase() {
 	for (var i=0; i<num_x; i++) {
 		for (var j=0; j<num_y; j++) {			
 			ellipse(step*i, step*j, radius*2, radius*2);
-			//point(step*i, step*j);
 		}
 	}
 
@@ -57,7 +56,6 @@ function drawMobile() {
 	for (var i=0; i<num_x*4; i++) {
 		for (var j=0; j<num_y*4; j++) {			
 			ellipse(step*i, step*j, radius*2, radius*2);
-			//point(step*i, step*j);
 		}
 	}
 
