@@ -47,7 +47,7 @@ function drawMobile() {
 	fill(0,0,0);
 
 	rotate(t/50);
-	translate(-width, -height)
+	translate(-2*width, -2*height)
 
 	// Pinto la segunda capa, que gira
 	var num_x = width / step;
