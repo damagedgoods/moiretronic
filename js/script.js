@@ -1,6 +1,6 @@
 var t;
-var radius = 2;
-var step = 10;
+var radius = 1;
+var step = 8;
 function setup() {
 
 	frameRate(120);
@@ -46,7 +46,7 @@ function drawMobile() {
 
 	fill(0,0,0);
 
-	rotate(t/50);
+	rotate(t/200);
 	translate(-2*width, -2*height)
 
 	// Pinto la segunda capa, que gira
